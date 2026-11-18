@@ -4,19 +4,19 @@ export const guardrailsConfig = {
   input: {
     version: 1,
     guardrails: [
-      // {
-      //   name: "Moderation",
-      //   config: {
-      //     categories: [
-      //       "hate",
-      //       "harassment",
-      //       "violence",
-      //       "self-harm",
-      //       "sexual",
-      //       "illicit",
-      //     ],
-      //   },
-      // },
+      {
+        name: "Moderation",
+        config: {
+          categories: [
+            "hate",
+            "harassment",
+            "violence",
+            "self-harm",
+            "sexual",
+            "illicit",
+          ],
+        },
+      },
       {
         name: "Jailbreak",
         config: {
@@ -32,19 +32,19 @@ export const guardrailsConfig = {
   output: {
     version: 1,
     guardrails: [
-      // {
-      //   name: "Moderation",
-      //   config: {
-      //     categories: [
-      //       "hate",
-      //       "harassment",
-      //       "violence",
-      //       "self-harm",
-      //       "sexual",
-      //       "illicit",
-      //     ],
-      //   },
-      // },
+      {
+        name: "Moderation",
+        config: {
+          categories: [
+            "hate",
+            "harassment",
+            "violence",
+            "self-harm",
+            "sexual",
+            "illicit",
+          ],
+        },
+      },
       {
         name: "Contains PII",
         config: {
